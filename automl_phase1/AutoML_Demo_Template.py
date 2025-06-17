@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 
 from automl_search import AutoMLSearch
 from cnn_autoencoder_builder import cnn_autoencoder_builder
-from visualize_filters import print_filters
+from extract_filters import print_filters
 from get_plot_filters import plot_layer_filters, list_conv_layers
 
 # 1️ Load and preprocess dataset (MNIST used as example)

@@ -186,7 +186,6 @@ param_grid = {
 
 EarlyStopping
 
-
 The training process uses EarlyStopping:
 
 Monitors validation loss.

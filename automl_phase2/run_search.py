@@ -18,7 +18,7 @@ X_train, X_val = X_train[:10000], X_val[:2000]
 
 # Param grid
 param_grid = {
-    'num_conv_layers': [1, 2, 3],
+    'num_conv_layers': [2, 3],
     'conv_filters_list': [
         [8],
         [8, 16],
